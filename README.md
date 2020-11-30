@@ -1,2 +1,1 @@
 # ceicom-core
-Plugin Wordpress

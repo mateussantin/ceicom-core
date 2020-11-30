@@ -1,0 +1,116 @@
+/*
+* Plugin Name: Ceicom Core
+* Plugin URI:
+* Description: Plugin de hooks.
+* Author: Mateus Santin Junior
+* Version: 1.0.0
+* Author URI: http://github.com/mateussantin
+* Text Domain: ceicom-core
+* Domain Path: /custom/
+*/
+
+#support {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    float: left;
+    overflow: visible;
+}
+
+#support .title h1 {
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0;
+    padding: 9px 0 4px 0;
+    line-height: 1.3;
+    color: #23282d;
+    display: block;
+}
+
+#support .wrap {
+    margin: 10px 20px 0 2px;
+    display: block;
+    outline: 0;
+    font-size: 13px;
+    line-height: 1.4em;
+    color: #444;
+}
+
+#support .container-support {
+    height: 100%;
+    display: inline-block;
+    position: relative;
+    padding: 0 15px 15px 15px;
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: transparent;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+#support .header-content {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+#support .title-page {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+    line-height: .8em;
+    width: auto;
+}
+
+#support .title-sub-page {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#support .content-item {
+    display: block;
+    line-height: 1.4em;
+    font-size: 16px;
+}
+
+#support .row .col6 {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+#support *[role="heading"]{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#support .container-support p {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px){
+    #support .row .col6{
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    #support .row .col6{
+        padding: 5px;
+    }
+}
+
+.color-gray-m {
+    color: gray;
+}
+
+.color-green {
+    color: #00a64f;
+}
+
+#adminmenu .wp-menu-image img {
+    opacity: 1;
+}
