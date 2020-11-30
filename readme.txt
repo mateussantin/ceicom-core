@@ -28,13 +28,13 @@ Plugin com algumas funcionalidades que melhoram o desenvolvimento e também a us
 * Instalado modulo Support
 * Instalado modulo Maintenance
 
-= 1.0.1 =
+= 1.0 =
 *Release Date - 30 November 2020*
 
 * Ajustado arquivo README;
 * Inserido página de manutenção para exemplo;
 
-= 2.0.0 =
+= 2.0 =
 *Release Date - 30 November 2020*
 
 * Atualizado versão;
