@@ -44,8 +44,7 @@
             border-radius: 0px;
             padding: 56px 24px;
             border: 0 !important;
-            background: #090;
-            /* background: #202225; */
+            background: #202225;
         }
 
         .login label {
