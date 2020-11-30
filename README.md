@@ -21,6 +21,8 @@ Wordpress versão >= 4.7
 ```
 - Plugin Name: Mode Maintenance
 - Description: Define o site como modo de manutenção (necessita da página index.html na raiz do site).
+- Observation: Navegar até a aba configurações/ceicom-core/
+- Page example: Copiar a página index.html que está na pasta /sample-page-maintenance/ do plugin e colar na raiz do site.
 ```
 
 ## Plugin External Connection GitHub

@@ -31,6 +31,5 @@ Plugin com algumas funcionalidades que melhoram o desenvolvimento e também a us
 = 1.0.1 =
 *Release Date - 30 November 2020*
 
-* Testando o plugin
-
-* Ajustes finos
+* Ajustado arquivo README;
+* Inserido página de manutenção para exemplo;
