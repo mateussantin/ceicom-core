@@ -4,14 +4,14 @@
     * Plugin URI: https://ceicom.com.br/
     * Description: Plugin de hooks.
     * Author: Mateus Santin Junior
-    * Version: 1.0.3
+    * Version: 1.0.4
     * Author URI: https://github.com/mateussantin
     * Text Domain: ceicom-core
     * Domain Path: /custom/
     */
 
     defined('ABSPATH') || die('No direct script access allowed!');
-    define('PLUGIN_VERSION', '1.3');
+    define('PLUGIN_VERSION', '1.0.4');
 
     if (!defined('CEICOM_CORE_PLUGIN_DIR')){
         define('CEICOM_CORE_PLUGIN_DIR', plugin_dir_path(__FILE__));

@@ -14,25 +14,6 @@ Plugin Wordpress para uso da empresa Ceicom.
 
 Plugin com algumas funcionalidades que melhoram o desenvolvimento e também a usabilidade do usuário.
 
-== Modules ==
-
-= Admin Custom Login =
-
-Estiliza a tela de acesso ao sistema padrão para o tema Ceicom.
-
-= Support Ceicom =
-
-Plugin que adiciona a página de suporte ao cliente Ceicom Tecnologia.
-
-= Mode Maintenance =
-
-Define o site como modo de manutenção (necessita da página index.html na raiz do site).
-
-= Links =
-* [Website](https://ceicom.com.br/)
-* [Support](https://ceicom.com.br/fale-conosco/)
-* [Author](https://github.com/mateussantin/)
-
 == Screenshots ==
 
 1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is stored in the /assets directory.
@@ -40,23 +21,16 @@ Define o site como modo de manutenção (necessita da página index.html na raiz
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.0 =
 *Release Date - 30 November 2020*
 
 * Instalado modulo Admin Custom Login
 * Instalado modulo Support
-
-= 1.1 =
-*Release Date - 30 November 2020*
-
 * Instalado modulo Maintenance
 
-= 1.2 =
+= 1.0.1 =
 *Release Date - 30 November 2020*
 
-* Adicionado logo e banner do plugin
-
-= 1.3 =
-*Release Date - 30 November 2020*
+* Testando o plugin
 
 * Ajustes finos
