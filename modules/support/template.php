@@ -1,12 +1,12 @@
 <!--
-* Plugin Name: Ceicom Core
-* Plugin URI:
-* Description: Plugin de hooks.
-* Author: Mateus Santin Junior
-* Version: 1.0.0
-* Author URI: http://github.com/mateussantin
-* Text Domain: ceicom-core
-* Domain Path: /custom/
+    * Plugin Name: Ceicom Core
+    * Plugin URI: https://ceicom.com.br/
+    * Description: Plugin de hooks.
+    * Author: Mateus Santin Junior
+    * Version: 1.0.0
+    * Author URI: https://github.com/mateussantin
+    * Text Domain: ceicom-core
+    * Domain Path: /custom/
 -->
 
 <div id="support">

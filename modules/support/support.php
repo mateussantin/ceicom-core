@@ -1,11 +1,11 @@
 <?php
     /*
     * Plugin Name: Ceicom Core
-    * Plugin URI:
+    * Plugin URI: https://ceicom.com.br/
     * Description: Plugin de hooks.
     * Author: Mateus Santin Junior
     * Version: 1.0.0
-    * Author URI: http://github.com/mateussantin
+    * Author URI: https://github.com/mateussantin
     * Text Domain: ceicom-core
     * Domain Path: /custom/
     */

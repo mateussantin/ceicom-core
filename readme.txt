@@ -1,52 +1,37 @@
 === Plugin Name ===
-Contributors: (this should be a list of wordpress.org userid's)
-Donate link: https://example.com/
-Tags: comments, spam
+Contributors: Ceicom
+Tags: login, support, maintenance
 Requires at least: 4.7
 Tested up to: 5.4
-Stable tag: 4.3
+Stable tag: 4.7
 Requires PHP: 7.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+License: MIT
+License URI: https://www.ceicom.com.br/
 
-Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
+Plugin Wordpress para uso da empresa Ceicom.
 
 == Description ==
 
-This is the long description.  No limit, and you can use Markdown (as well as in the following sections).
+Plugin com algumas funcionalidades que melhoram o desenvolvimento e também a usabilidade do usuário.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+== Modules ==
 
-A few notes about the sections above:
+= Admin Custom Login =
 
-*   "Contributors" is a comma separated list of wordpress.org usernames
-*   "Tags" is a comma separated list of tags that apply to the plugin
-*   "Requires at least" is the lowest version that the plugin will work on
-*   "Tested up to" is the highest version that you've *successfully used to test the plugin*. Note that it might work on
-higher versions... this is just the highest one you've verified.
-*   Stable tag should indicate the Subversion "tag" of the latest stable version, or "trunk," if you use `/trunk/` for
-stable.
+Estiliza a tela de acesso ao sistema padrão para o tema Ceicom.
 
-    Note that the `readme.txt` of the stable tag is the one that is considered the defining one for the plugin, so
-if the `/trunk/readme.txt` file says that the stable tag is `4.3`, then it is `/tags/4.3/readme.txt` that'll be used
-for displaying information about the plugin.  In this situation, the only thing considered from the trunk `readme.txt`
-is the stable tag pointer.  Thus, if you develop in trunk, you can update the trunk `readme.txt` to reflect changes in
-your in-development version, without having that information incorrectly disclosed about the current stable version
-that lacks those changes -- as long as the trunk's `readme.txt` points to the correct stable tag.
+= Support Ceicom =
 
-    If no stable tag is provided, it is assumed that trunk is stable, but you should specify "trunk" if that's where
-you put the stable version, in order to eliminate any doubt.
+Plugin que adiciona a página de suporte ao cliente Ceicom Tecnologia.
 
-== Frequently Asked Questions ==
+= Mode Maintenance =
 
-= A question that someone might have =
+Define o site como modo de manutenção (necessita da página index.html na raiz do site).
 
-An answer to that question.
-
-= What about foo bar? =
-
-Answer to foo bar dilemma.
+= Links =
+* [Website](https://ceicom.com.br/)
+* [Support](https://ceicom.com.br/fale-conosco/)
+* [Author](https://github.com/mateussantin/)
 
 == Screenshots ==
 
@@ -56,41 +41,22 @@ Answer to foo bar dilemma.
 == Changelog ==
 
 = 1.0 =
-* A change since the previous version.
-* Another change.
+*Release Date - 30 November 2020*
 
-= 0.5 =
-* List versions from most recent at top to oldest at bottom.
+* Instalado modulo Admin Custom Login
+* Instalado modulo Support
 
-== Upgrade Notice ==
+= 1.1 =
+*Release Date - 30 November 2020*
 
-= 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
+* Instalado modulo Maintenance
 
-= 0.5 =
-This version fixes a security related bug.  Upgrade immediately.
+= 1.2 =
+*Release Date - 30 November 2020*
 
-== A brief Markdown Example ==
+* Adicionado logo e banner do plugin
 
-Ordered list:
+= 1.3 =
+*Release Date - 30 November 2020*
 
-1. Some feature
-1. Another feature
-1. Something else about the plugin
-
-Unordered list:
-
-* something
-* something else
-* third thing
-
-Here's a link to [WordPress](https://wordpress.org/ "Your favorite software") and one to [Markdown's Syntax Documentation][markdown syntax].
-Titles are optional, naturally.
-
-[markdown syntax]: https://daringfireball.net/projects/markdown/syntax
-            "Markdown is what the parser uses to process much of the readme file"
-
-Markdown uses email style notation for blockquotes and I've been told:
-> Asterisks for *emphasis*. Double it up  for **strong**.
-
-`<?php code(); // goes in backticks ?>`
+* Ajustes finos

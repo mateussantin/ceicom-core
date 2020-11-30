@@ -1,4 +1,15 @@
 <?php
+    /*
+    * Plugin Name: Ceicom Core
+    * Plugin URI: https://ceicom.com.br/
+    * Description: Plugin de hooks.
+    * Author: Mateus Santin Junior
+    * Version: 1.0.0
+    * Author URI: https://github.com/mateussantin
+    * Text Domain: ceicom-core
+    * Domain Path: /custom/
+    */
+
     function maintenance_redirect() {
         if(!ceicom_is_wplogin() && !is_admin() && !current_user_can('administrator')){
             wp_redirect(home_url("index.html"));
