@@ -3,6 +3,9 @@
 # ceicom-core
 Plugin Wordpress desenvolvido para uso exclusivo da empresa Ceicom.
 
+## Version Stable 
+* 2.0.0
+
 ## Install
 Faça download desse repositório e cole na pasta de plugins do seu site.
 

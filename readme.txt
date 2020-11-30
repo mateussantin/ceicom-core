@@ -33,3 +33,8 @@ Plugin com algumas funcionalidades que melhoram o desenvolvimento e também a us
 
 * Ajustado arquivo README;
 * Inserido página de manutenção para exemplo;
+
+= 2.0.0 =
+*Release Date - 30 November 2020*
+
+* Atualizado versão;
