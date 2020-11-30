@@ -4,14 +4,14 @@
     * Plugin URI: https://ceicom.com.br/
     * Description: Plugin de hooks.
     * Author: Mateus Santin Junior
-    * Version: 1.0.1
+    * Version: 1.0.2
     * Author URI: https://github.com/mateussantin
     * Text Domain: ceicom-core
     * Domain Path: /custom/
     */
 
     defined('ABSPATH') || die('No direct script access allowed!');
-    define('PLUGIN_VERSION', '1.1');
+    define('PLUGIN_VERSION', '1.2');
 
     if (!defined('CEICOM_CORE_PLUGIN_DIR')){
         define('CEICOM_CORE_PLUGIN_DIR', plugin_dir_path(__FILE__));
@@ -30,9 +30,7 @@
     require_once( CEICOM_CORE_PLUGIN_DIR . 'modules/adminlogin/admin-login.php');
     require_once( CEICOM_CORE_PLUGIN_DIR . 'modules/mode-maintenance/maintenance.php');
 
-
-
-    // Plugin Update Checker
+    // PLUGIN UPDATE CHECKER
     //--------------------------------------
     require_once 'plugin-update-checker/plugin-update-checker.php';
     function my_plugin_update_checker_setting() {
@@ -46,8 +44,7 @@
             'unique-plugin-or-theme-slug'
         );
 
-        $myUpdateChecker->setAuthentication('');
-        $myUpdateChecker->setBranch('master');
+        // $myUpdateChecker->setAuthentication('');
+        $myUpdateChecker->setBranch('main');
     }
-
     add_action( 'admin_init', 'my_plugin_update_checker_setting' );
