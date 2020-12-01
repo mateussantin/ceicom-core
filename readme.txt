@@ -38,3 +38,8 @@ Plugin com algumas funcionalidades que melhoram o desenvolvimento e também a us
 *Release Date - 30 November 2020*
 
 * Atualizado versão;
+
+= 2.1 =
+*Release Date - 01 Dezember 2020*
+
+* Testando;
