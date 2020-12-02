@@ -12,7 +12,7 @@
 
     function maintenance_redirect() {
         if(!ceicom_is_wplogin() && !is_admin() && !current_user_can('administrator')){
-            wp_redirect(home_url("index.html"));
+            wp_redirect(home_url("maintenance.html"));
             exit;
         }
     }

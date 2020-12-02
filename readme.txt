@@ -43,3 +43,8 @@ Plugin com algumas funcionalidades que melhoram o desenvolvimento e também a us
 *Release Date - 01 Dezember 2020*
 
 * Testando;
+
+= 2.2 =
+*Release Date - 02 Dezember 2020*
+
+* Ajustado pagina de manutenção;
